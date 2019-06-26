@@ -1,0 +1,1 @@
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\KNZ.ServiceFabric\obj\x64\Debug\KNZ.ServiceFabric.sfproj.CoreCompileInputs.cache

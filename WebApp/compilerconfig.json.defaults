@@ -1,0 +1,49 @@
+{
+  "compilers": {
+    "less": {
+      "autoPrefix": "",
+      "cssComb": "none",
+      "ieCompat": true,
+      "strictMath": false,
+      "strictUnits": false,
+      "relativeUrls": true,
+      "rootPath": "",
+      "sourceMapRoot": "",
+      "sourceMapBasePath": "",
+      "sourceMap": false
+    },
+    "sass": {
+      "includePath": "",
+      "indentType": "space",
+      "indentWidth": 2,
+      "outputStyle": "expanded",
+      "Precision": 5,
+      "relativeUrls": true,
+      "sourceMapRoot": "",
+      "sourceMap": true
+    },
+    "stylus": {
+      "sourceMap": false
+    },
+    "babel": {
+      "sourceMap": false
+    },
+    "coffeescript": {
+      "bare": false,
+      "runtimeMode": "node",
+      "sourceMap": false
+    }
+  },
+  "minifiers": {
+    "css": {
+      "enabled": false,
+      "termSemicolons": false,
+      "gzip": false
+    },
+    "javascript": {
+      "enabled": false,
+      "termSemicolons": false,
+      "gzip": false
+    }
+  }
+}

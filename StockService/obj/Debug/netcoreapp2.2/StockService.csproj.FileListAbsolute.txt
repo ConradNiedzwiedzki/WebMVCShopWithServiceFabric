@@ -1,0 +1,14 @@
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\StockService\bin\Debug\netcoreapp2.2\StockService.deps.json
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\StockService\bin\Debug\netcoreapp2.2\StockService.runtimeconfig.json
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\StockService\bin\Debug\netcoreapp2.2\StockService.runtimeconfig.dev.json
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\StockService\bin\Debug\netcoreapp2.2\StockService.dll
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\StockService\bin\Debug\netcoreapp2.2\StockService.pdb
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\StockService\obj\Debug\netcoreapp2.2\StockService.csprojAssemblyReference.cache
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\StockService\obj\Debug\netcoreapp2.2\StockService.csproj.CoreCompileInputs.cache
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\StockService\obj\Debug\netcoreapp2.2\StockService.RazorAssemblyInfo.cache
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\StockService\obj\Debug\netcoreapp2.2\StockService.RazorAssemblyInfo.cs
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\StockService\obj\Debug\netcoreapp2.2\StockService.AssemblyInfoInputs.cache
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\StockService\obj\Debug\netcoreapp2.2\StockService.AssemblyInfo.cs
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\StockService\obj\Debug\netcoreapp2.2\StockService.RazorTargetAssemblyInfo.cache
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\StockService\obj\Debug\netcoreapp2.2\StockService.dll
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\StockService\obj\Debug\netcoreapp2.2\StockService.pdb

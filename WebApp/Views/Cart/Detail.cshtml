@@ -1,0 +1,43 @@
+@using WebMVC.ViewModels
+@model WebMVC.ViewModels.BasketItem
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="container">
+    <section class="esh-orders_new-section">
+        <h4 class="esh-orders_new-title">Product Details</h4>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <img class="esh-orders_detail-image" src="~/Img/@Model.PictureUrl">
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="ProductName" class="esh-orders_new-title">Name</label>
+                    <input asp-for="ProductName" class="form-control form-input" type="text" value="@Model.ProductName" placeholder="Street" />
+                    <span asp-validation-for="ProductName" class="alert alert-danger" />
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="ProductName" class="esh-orders_new-title">Description</label>
+                    <input asp-for="ProductName" class="form-control form-input" value="@Model.ProductName" type="text" placeholder="City" />
+                    <span asp-validation-for="ProductName" class="alert alert-danger" />
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="UnitPrice" class="esh-orders_new-title">Price</label>
+                    <input asp-for="UnitPrice" class="form-control form-input" value="@Model.UnitPrice" type="text" placeholder="State" />
+                    <span asp-validation-for="UnitPrice" class="alert alert-danger" />
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+

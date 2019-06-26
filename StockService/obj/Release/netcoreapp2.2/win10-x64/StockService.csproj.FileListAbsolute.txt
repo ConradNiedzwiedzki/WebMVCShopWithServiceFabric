@@ -1,0 +1,17 @@
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\StockService\bin\Release\netcoreapp2.2\win10-x64\hostpolicy.dll
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\StockService\bin\Release\netcoreapp2.2\win10-x64\hostfxr.dll
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\StockService\bin\Release\netcoreapp2.2\win10-x64\StockService.exe
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\StockService\bin\Release\netcoreapp2.2\win10-x64\StockService.deps.json
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\StockService\bin\Release\netcoreapp2.2\win10-x64\StockService.runtimeconfig.json
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\StockService\bin\Release\netcoreapp2.2\win10-x64\StockService.runtimeconfig.dev.json
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\StockService\bin\Release\netcoreapp2.2\win10-x64\StockService.dll
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\StockService\bin\Release\netcoreapp2.2\win10-x64\StockService.pdb
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\StockService\obj\Release\netcoreapp2.2\win10-x64\StockService.csprojAssemblyReference.cache
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\StockService\obj\Release\netcoreapp2.2\win10-x64\StockService.csproj.CoreCompileInputs.cache
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\StockService\obj\Release\netcoreapp2.2\win10-x64\StockService.RazorAssemblyInfo.cache
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\StockService\obj\Release\netcoreapp2.2\win10-x64\StockService.RazorAssemblyInfo.cs
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\StockService\obj\Release\netcoreapp2.2\win10-x64\StockService.AssemblyInfoInputs.cache
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\StockService\obj\Release\netcoreapp2.2\win10-x64\StockService.AssemblyInfo.cs
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\StockService\obj\Release\netcoreapp2.2\win10-x64\StockService.RazorTargetAssemblyInfo.cache
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\StockService\obj\Release\netcoreapp2.2\win10-x64\StockService.dll
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\StockService\obj\Release\netcoreapp2.2\win10-x64\StockService.pdb

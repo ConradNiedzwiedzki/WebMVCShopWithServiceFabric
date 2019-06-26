@@ -1,0 +1,91 @@
+@using WebMVC.ViewModels
+@model WebMVC.ViewModels.Basket
+
+@{
+    ViewData["Title"] = "My Cart";
+}
+
+<div class="container">
+    @if (ViewBag.BasketInoperativeMsg != null)
+    {
+        <br />
+        <div class="alert alert-warning" role="alert">
+            &nbsp;@ViewBag.BasketInoperativeMsg
+        </div>
+    }
+    else
+    {
+<article class="esh-basket-titles row">
+    <br />
+    @if (ViewBag.BasketInoperativeMsg != null)
+    {
+        <div class="alert alert-warning" role="alert">
+            &nbsp;@ViewBag.BasketInoperativeMsg
+        </div>
+    }
+
+    <section class="esh-basket-title col-3">Product</section>
+    <section class="esh-basket-title col-3 hidden-lg-down"></section>
+    <section class="esh-basket-title col-2">Price</section>
+    <section class="esh-basket-title col-1">Quantity</section>
+    @*<section class="esh-basket-title col-1">Cost</section>*@
+    <section class="esh-basket-title col-1">Stock</section>
+    <section class="esh-basket-title col-1">Details</section>
+</article>
+
+        @for (int i = 0; i < Model.Items.Count; i++)
+        {
+            var item = Model.Items[i];
+
+<article class="esh-basket-items row">
+    <section class="esh-basket-item esh-basket-item--middle col-lg-3 hidden-lg-down">
+        <img class="esh-basket-image" src="Img/@item.PictureUrl" />
+    </section>
+    <section class="esh-basket-item esh-basket-item--middle col-3">@item.ProductName</section>
+    <section class="esh-basket-item esh-basket-item--middle col-2">$ @item.UnitPrice.ToString("N2")</section>
+    <section class="esh-basket-item esh-basket-item--middle col-1">
+        <input type="hidden" name="@("quantities[" + i +"].Key")" value="@item.Id" />
+        <input type="number" disabled class="esh-basket-input" min="1" name="@("quantities[" + i +"].Value")" value="@item.Quantity" />
+    </section>
+    @*<section class="esh-basket-item esh-basket-item--middle esh-basket-item--mark col-2">$ @Math.Round(item.Quantity * item.UnitPrice, 2).ToString("N2")</section>*@
+    <section class="esh-basket-item esh-basket-item--middle col-1">@item.QuantityStock.ToString()</section>
+    <section class="esh-basket-item esh-basket-item--middle col-1">
+        <form method="post" id="cartForm" asp-controller="Cart" asp-action="Detail" asp-route-id="@item.Id">
+            <input type="submit"
+                   class="btn esh-basket-checkout"
+                   value="Detail" name="action" />
+        </form>
+    </section>
+</article>
+            <br />
+        }
+
+        <div class="container">
+            <article class="esh-basket-titles esh-basket-titles--clean row">
+                <section class="esh-basket-title col-10"></section>
+                <section class="esh-basket-title col-2">Total</section>
+            </article>
+
+            <article class="esh-basket-items row">
+                <section class="esh-basket-item col-10"></section>
+                <section class="esh-basket-item esh-basket-item--mark col-2">$ @Model.Total()</section>
+            </article>
+            <form method="post" id="cartForm" asp-controller="Order" asp-action="Checkout">
+                <article class="esh-basket-items row">
+                    <section class="esh-basket-item col-7"></section>
+                    @*<section class="esh-basket-item col-2">
+                            <button class="btn esh-basket-checkout" name="name" value="" type="submit">[ Update ]</button>
+                        </section>*@
+                    <section class="esh-basket-item col-3">
+                        <input type="submit"
+                               class="btn esh-basket-checkout"
+                               value="Checkout" name="action" />
+                    </section>
+                </article>
+            </form>
+        </div>
+    }
+
+</div>
+
+

@@ -1,0 +1,14 @@
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\OrderingService\bin\Release\netcoreapp2.2\OrderingService.deps.json
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\OrderingService\bin\Release\netcoreapp2.2\OrderingService.runtimeconfig.json
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\OrderingService\bin\Release\netcoreapp2.2\OrderingService.runtimeconfig.dev.json
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\OrderingService\bin\Release\netcoreapp2.2\OrderingService.dll
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\OrderingService\bin\Release\netcoreapp2.2\OrderingService.pdb
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\OrderingService\obj\Release\netcoreapp2.2\OrderingService.csprojAssemblyReference.cache
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\OrderingService\obj\Release\netcoreapp2.2\OrderingService.csproj.CoreCompileInputs.cache
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\OrderingService\obj\Release\netcoreapp2.2\OrderingService.RazorAssemblyInfo.cache
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\OrderingService\obj\Release\netcoreapp2.2\OrderingService.RazorAssemblyInfo.cs
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\OrderingService\obj\Release\netcoreapp2.2\OrderingService.AssemblyInfoInputs.cache
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\OrderingService\obj\Release\netcoreapp2.2\OrderingService.AssemblyInfo.cs
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\OrderingService\obj\Release\netcoreapp2.2\OrderingService.RazorTargetAssemblyInfo.cache
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\OrderingService\obj\Release\netcoreapp2.2\OrderingService.dll
+C:\Users\vmadmin\Documents\ServiceFabricWorkshop\eShop\OrderingService\obj\Release\netcoreapp2.2\OrderingService.pdb
